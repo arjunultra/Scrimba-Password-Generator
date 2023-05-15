@@ -8,29 +8,63 @@ body {
   background-color: #1c1c1c;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 main.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   background-color: #1f2937;
   width: 40em;
   height: 35em;
-}
-p.desc {
-  color: #ffffff;
+  margin: 5em auto;
+  position: relative;
 }
 h1.title {
   color: #ffffff;
+  width: 9em;
+  // background-color: red;
+  font-size: 3rem;
+  position: absolute;
+  top: 2em;
+  left: 1.5em;
+  span.green-text {
+    color: #4adf86;
+  }
 }
-span.green-text {
-  color: #4adf86;
+p.desc {
+  color: #bebec4;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 10em;
+  left: 3em;
+}
+button#submit-btn {
+  background-color: #00ba85;
+  color: #ffffff;
+  padding: 0.9em 3.5em;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 25em;
+  left: 5em;
 }
 hr.hr-line {
-  color: #ffffff;
+  border: 1px solid #2e3e52;
   width: 30em;
+  position: absolute;
+  top: 25.5em;
+  left: 4em;
+}
+div.password-container {
+  display: flex;
+  justify-content: space-between;
+  width: 28em;
+  // border: 2px dotted dodgerblue;
+  position: absolute;
+  top: 28em;
+  left: 5em;
+  span.passwords {
+    width: 13em;
+    height: 2em;
+    display: block;
+    background-color: #263548;
+    border-radius: 5px;
+  }
 }
